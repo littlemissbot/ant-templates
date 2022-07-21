@@ -1,15 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import { Layout } from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
+import PrivateLayout from "./views/private";
 
-function App() {
+const App = () => {
   return (
-    <Layout>
-      <Header>Header</Header>
-      <Content>Content</Content>
-      <Footer>Footer</Footer>
-    </Layout>
+    <PrivateLayout/>
   );
 }
 
