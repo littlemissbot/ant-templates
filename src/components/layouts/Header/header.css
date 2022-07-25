@@ -1,0 +1,8 @@
+.site-layout-header {
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.site-layout-header .trigger {
+  font-size: 18px;
+}
