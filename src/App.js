@@ -5,6 +5,7 @@ import PrivateLayout from "./views/private";
 import Login from "./views/auth/Login";
 import Register from "./views/auth/Register";
 import Dashboard from "./views/private/Dashboard";
+import Users from "./views/private/Users";
 
 const App = () => {
   return (
@@ -22,9 +23,13 @@ const App = () => {
       </Route>
       <Route path="app" element={<PrivateLayout />}>
         <Route
-            path=""
-            element={<Dashboard />}
-          />
+          path=""
+          element={<Dashboard />}
+        />
+        <Route
+          path="users"
+          element={<Users />}
+        />
       </Route>
     </Routes>
     </>

@@ -1,5 +1,14 @@
 .site-layout-sider .logo {
-  background-color: green;
-  min-height: 55px;
+  /* min-height: 55px; */
   margin: calc(64px - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 4px;
+}
+.site-layout-sider .logo img {
+  height: 45px;
+  width: auto;
 }
